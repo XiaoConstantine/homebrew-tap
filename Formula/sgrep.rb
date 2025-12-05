@@ -1,22 +1,22 @@
 class Sgrep < Formula
   desc "Semantic grep - AI-powered code search using embeddings"
   homepage "https://github.com/XiaoConstantine/sgrep"
-  version "0.6.0"
+  version "0.7.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/XiaoConstantine/sgrep/releases/download/v0.6.0/sgrep_Darwin_arm64.tar.gz"
-      sha256 "51d58294e0f86ac03ec90dfdde3113760306d8f802b73917d6bef91186bfc71a"
+      url "https://github.com/XiaoConstantine/sgrep/releases/download/v0.7.0/sgrep_Darwin_arm64.tar.gz"
+      sha256 "a22c6a9c106fb79ea7641c4cd338dcb6c875c74c89db9bc874f28fd91d60f75f"
     else
-      url "https://github.com/XiaoConstantine/sgrep/releases/download/v0.6.0/sgrep_Darwin_x86_64.tar.gz"
-      sha256 "2e1d469a198c6bb3691499cf0ceaf665fa936ab142e11f70639fa61b28df8682"
+      url "https://github.com/XiaoConstantine/sgrep/releases/download/v0.7.0/sgrep_Darwin_x86_64.tar.gz"
+      sha256 "a07580cbbe93cb4426261936cb92c3d3ec01af9e0da34bd3f924cc523779cd25"
     end
   end
 
   on_linux do
-    url "https://github.com/XiaoConstantine/sgrep/releases/download/v0.6.0/sgrep_Linux_x86_64.tar.gz"
-    sha256 "fda84ec32e6338d2fb8c66aa3378de0fd24b4c8e8628234c65ba8eca56e097ab"
+    url "https://github.com/XiaoConstantine/sgrep/releases/download/v0.7.0/sgrep_Linux_x86_64.tar.gz"
+    sha256 "510c24a62d4fed97f665865edc61bc726321cafce03942fcd11a3cfa80b28b37"
   end
 
   def install
